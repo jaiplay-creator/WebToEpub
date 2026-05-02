@@ -371,8 +371,8 @@
 		"message": "Epub description",
 		"description": "Preview description from the epub in Calibre"
 	},
-	"__MSG_label_Metadata_subject__": {
-		"message": "Epub publisher",
+	"__MSG_label_Metadata_publisher__": {
+		"message": "Publisher",
 		"description": "Label for Epub publisher"
 	},
 	"__MSG_label_Custom_Filename__": {

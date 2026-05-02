@@ -311,7 +311,7 @@ class Parser {
     * default implementation, 
     * if not available, return ''
     */
-    extractPublisher(dom) {
+    extractPublisher(dom) {   // eslint-disable-line no-unused-vars
         // try metadata extraction
         let publisher = dom.querySelector("meta[property='og:site_name']");
         if (publisher !== null) {
@@ -374,7 +374,7 @@ class Parser {
             metaInfo.publisher = this.extractPublisher(dom);
         }
         catch (err) {
-            metaInfo.publisher = ""
+            metaInfo.publisher = "";
         }
         this.extractSeriesInfo(dom, metaInfo);
         return metaInfo;
