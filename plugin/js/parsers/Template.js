@@ -136,6 +136,14 @@ class TemplateParser extends Parser { // eslint-disable-line no-unused-vars
     }
     */
 
+    // Publisher of the story
+    // Optional, Publisher for metadata, if not provided, will default to ""
+    /*
+    extractPublisher(dom) {
+        return "Site Name";
+    }
+    */
+
     // Optional, supply if need to do special manipulation of content
     // e.g. decrypt content
     /*
