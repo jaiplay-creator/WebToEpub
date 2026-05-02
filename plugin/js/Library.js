@@ -647,8 +647,8 @@ class Library { // eslint-disable-line no-unused-vars
             LibSaveMetadataString += "<dc:date>"+LibDateCreated+"</dc:date>";
             LibSaveMetadataString += "<dc:subject>"+LibSubjectInput+"</dc:subject>";
             LibSaveMetadataString += "<dc:description>"+LibDescriptionInput+"</dc:description>";
-            LibSaveMetadataString += "dc:publisher>"+LibPublisherInput+"</dc:publisher>";
             LibSaveMetadataString += "<dc:creator opf:file-as=\""+LibAuthorInput+"\" opf:role=\"aut\">"+LibAuthorInput+"</dc:creator>";
+            LibSaveMetadataString += "<dc:publisher>"+LibPublisherInput+"</dc:publisher>";
 
             opfFile = opfFile.replace(new RegExp("<dc:title>.+?</dc:creator>", "gs"), LibSaveMetadataString);
 
